@@ -1,0 +1,17 @@
+# See https://www.kali.org/docs/general-use/kali-linux-sources-list-repositories/
+deb http://http.kali.org/kali kali-rolling main contrib non-free
+deb-src http://http.kali.org/kali kali-rolling main non-free contrib
+
+deb http://httpredir.debian.org/debian buster main non-free contrib
+deb-src http://httpredir.debian.org/debian buster main non-free contrib
+
+deb http://security.debian.org/debian-security buster/updates main contrib non-free
+deb-src http://security.debian.org/debian-security buster/updates main contrib
+
+deb http://deb.debian.org/debian buster-backports main contrib non-free
+deb-src http://deb.debian.org/debian buster-backports main contrib non-free
+
+deb http://deb.debian.org/debian-debug/ stretch-debug main
+
+deb http://security.debian.org/debian-security bullseye-security main contrib non-free
+deb http://ftp.us.debian.org/debian bullseye-proposed-updates main contrib non-free

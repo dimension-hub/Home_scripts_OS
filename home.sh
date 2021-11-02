@@ -13,7 +13,7 @@ cd ~; clear
 
 read -p "Update the folder apt and file sources.list? Enter [y/n]:" choice
 if   [ $choice == y ]; then
-        sudo mv $home/Home_script_OS/apt/sources.list /etc/apt/sources.list
+        sudo cp $home/Home_scripts_OS/apt/sources.list /etc/apt/sources.list
 
 elif [ $choice == n ]; then
         echo "Warning this can negatively affect other processes!"
